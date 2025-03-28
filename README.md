@@ -39,7 +39,8 @@ model.train(
       imgsz=640,   # 이미지 크기  
       device="cuda" # GPU 사용
 )
-```<br><br>4. 모델 평가<br>- Precision (정밀도): 0.64 ~ 0.90<br>- Recall (재현율): 0.44 ~ 1.0<br>- mAP@50 (Mean Average Precision): 평균 0.77<br><br> 5. 모델 테스트 및 결과 분석<br>5.1 테스트 이미지 예측 실행<br>  
+```
+<br><br>4. 모델 평가<br>- Precision (정밀도): 0.64 ~ 0.90<br>- Recall (재현율): 0.44 ~ 1.0<br>- mAP@50 (Mean Average Precision): 평균 0.77<br><br> 5. 모델 테스트 및 결과 분석<br>5.1 테스트 이미지 예측 실행<br>  
 ```python  
 model = YOLO("/content/runs/detect/train2/weights/best.pt")  
 model.predict(source="/content/drive/MyDrive/dataset/test/images", save=True)  
