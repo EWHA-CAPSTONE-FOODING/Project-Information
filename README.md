@@ -30,7 +30,7 @@
 <br></br>
 # 🍮 Build 방법 
 ### Frontend Repository
-① git clone으로 프로젝트 폴더를 로컬에 다운로드
+① git clone https://github.com/EWHA-CAPSTONE-FOODING/FOODING-front으로 프로젝트 폴더를 로컬에 다운로드
 
 ② 다운받은 폴더를 에디터에서 열고 npm install을 입력해 필요한 패키지 설치
 
@@ -46,6 +46,7 @@
 ④ run을 클릭하여 local 환경에서 프로젝트를 실행합니다.
 <br></br>
 ### AI Repository
+https://github.com/EWHA-CAPSTONE-FOODING/FOODING-ai
 1. **OCR (영수증 텍스트 추출)**
 - 별도 빌드 필요 없음
 - API Key, 이미지 파일, 경로를 코드 상에서 직접 지정 필요
